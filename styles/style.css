@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+/* INTER WEIGHT: 300, 400, 500, 600 e 700 */
+
+:root {
+  --background-color: #e5e7f2;
+  --primary-color: #2c3345;
+  --secondary-color: #464d5f;
+  --asterisk-color: #f23a3c;
+  --input-color: #b8bdc9;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--background-color);
+  display: flex;
+  min-height: 100vh;
+}
+
+.header-and-main {
+  background-color: #fff;
+  width: 35%;
+  margin: auto;
+}
+
+p:not(:last-child) {
+  color: #2c3345;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1.4em;
+}
+
+label:not(.regularizationStatusRadio label) {
+  color: var(--secondary-color);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 1em;
+}
+
+.asterisk {
+  color: var(--asterisk-color);
+}
+
+#main,
+#header h1 {
+  width: 90%;
+  margin: auto;
+}
+
+input {
+  border: 1px solid var(--input-color);
+  border-radius: 4px;
+  height: 2.5em;
+  padding: 4px 10px;
+}
+
+.name-surname__name,
+.name-surname__surname,
+.nickname {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.spacing {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+#header {
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 1px solid #d7d8e1;
+}
+
+#header h1 {
+  color: var(--primary-color);
+  font-weight: 600;
+  line-height: 46.4px; /* 145% */
+  padding: 40px 0 45px 0;
+}
+
+/* MAIN */
+/* Nome e sobrenome */
+.name-surname,
+.telephone__flex {
+  display: flex;
+  gap: 1em;
+
+  flex-basis: 70%;
+}
+
+/* Apelido */
+
+/* Quebrada/Local */
+
+/* E-mail */
+
+/* Telefone */
+.telephone {
+  display: flex;
+  flex-direction: column;
+}
+
+.telephone__ddd,
+.telephone__number {
+  display: flex;
+  flex-direction: column;
+}
+
+.telephone__ddd {
+  width: 20%;
+}
+
+.telephone__number {
+  flex-grow: 1;
+}
+
+/* Número sócio */
+
+/* Numero matrículo */
+
+/* Regularização */
+.regularization {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+input[type="radio"] {
+  transform: scale(1.2);
+}
+
+.regularizationStatusRadio__yes,
+.regularizationStatusRadio__no {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+/* FOOTER */
+#footer {
+  border-top: 1px solid #e5e7f2;
+  padding: 4em 0 3em;
+  width: 100%;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#footer button {
+  border-radius: 4px;
+  border: 1px solid #0a0b0d;
+  background: linear-gradient(90deg, #4e5156 0%, #0a0b0d 100%);
+  padding: 1em 3em;
+  color: #fff;
+  border-color: #0a0b0d;
+}
+
+#footer button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+#footer p:hover {
+  cursor: pointer;
+}
+
+#footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+  color: blue;
+}

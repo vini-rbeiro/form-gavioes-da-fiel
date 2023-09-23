@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <title>Sócios Gaviões x Sócios SCCP</title>
+  </head>
+  <body>
+    <div class="header-and-main">
+      <header id="header">
+        <div class="header__wrapper">
+          <h1>
+            Participação dos Gaviões da Fiel nas Eleições do Corinthians 2023
+          </h1>
+        </div>
+      </header>
+
+      <form action="#">
+        <main id="main">
+          <p>Seu nome <span class="asterisk">*</span></p>
+          <div class="name-surname">
+            <div class="name-surname__name">
+              <input type="text" name="name" id="name" required />
+              <label for="name">Nome</label>
+            </div>
+
+            <div class="name-surname__surname">
+              <input type="text" name="surname" id="surname" required />
+              <label for="surname">Sobrenome</label>
+            </div>
+          </div>
+
+          <div class="spacing nickname">
+            <p>Seu apelido</p>
+            <input type="text" name="nickname" id="nickname" />
+            <label for="nickname">Informe seu apelido (se tiver)</label>
+          </div>
+
+          <div class="spacing local">
+            <p>
+              Quebrada / Sub-Sede / Ponto de Encontro que você frequenta:
+              <span class="asterisk">*</span>
+            </p>
+            <input type="text" name="local" id="local" required />
+            <label for="nickname"
+              >Informe se frequenta a sede, algum ponto de encontro, etc</label
+            >
+          </div>
+
+          <div class="spacing email">
+            <p>Seu E-mail <span class="asterisk">*</span></p>
+            <input type="email" name="email" id="email" required />
+            <label for="email">@exemplo.exemplo.com</label>
+          </div>
+
+          <div class="telephone">
+            <p>Seu telefone <span class="asterisk">*</span></p>
+            <div class="telephone__flex">
+              <div class="telephone__ddd">
+                <input
+                  type="number"
+                  name="ddd"
+                  id="ddd"
+                  required
+                  max="99"
+                  placeholder="Ex: 11"
+                />
+                <label for="ddd">Código de área</label>
+              </div>
+
+              <div class="telephone__number">
+                <input
+                  type="number"
+                  name="number"
+                  id="number"
+                  required
+                  placeholder="Digite somente números"
+                />
+                <label for="number">Telefone</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="spacing partner">
+            <p>Número de Sócio dos Gaviões <span class="asterisk">*</span></p>
+            <input
+              type="text"
+              name="id_partner"
+              id="id_partner"
+              placeholder="Ex: 999999"
+              required
+            />
+            <label for="id_partner">Digite somente números</label>
+          </div>
+
+          <div class="spacing registration">
+            <p>
+              Número da sua Matrícula no Corinthians (Não confundir com Fiel
+              Torcedor): <span class="asterisk">*</span>
+            </p>
+            <input
+              type="number"
+              name="registration_id"
+              id="registration_id"
+              placeholder="Ex: 999999"
+              required
+            />
+            <label for="registration_id">Digite somente números</label>
+          </div>
+
+          <div class="spacing regularization">
+            <p>
+              Está com sua situação regularizada junto ao clube?
+              <span class="asterisk">*</span>
+            </p>
+            <div class="regularizationStatusRadio">
+              <div class="regularizationStatusRadio__yes">
+                <input
+                  type="radio"
+                  name="regularization"
+                  id="regularization__yes"
+                  required
+                />
+                <label for="regularization__yes">Sim</label>
+              </div>
+
+              <div class="regularizationStatusRadio__no">
+                <input
+                  type="radio"
+                  name="regularization"
+                  id="regularization__no"
+                  required
+                />
+                <label for="regularization__no">Não</label>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer id="footer">
+          <div class="footer__wrapper">
+            <button type="submit">Submit</button>
+            <p>
+              Powered by
+              <a href="https://www.instagram.com/vini_rbeiro/" target="_blank"
+                >vini_rbeiro</a
+              >
+            </p>
+          </div>
+        </footer>
+      </form>
+    </div>
+  </body>
+</html>
