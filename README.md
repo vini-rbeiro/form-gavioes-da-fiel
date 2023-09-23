@@ -8,6 +8,7 @@
 <h2>Descrição do projeto</h2>
 
 <p>Desenvolvi esse clone de página para treinar e melhorar minhas habilidades em formulário usando HTML5 e CSS3 e por cima, utilizei o Figma para me basear. A página original é do site <a href="https://www.jotform.com/pt/" target="_blank">Jotform</a>.</p>
+🔧 Funcionalidade 1: Realizar a coleta de informações do usuário.
 
 <br>:calling: <i>NÃO RESPONSIVO</i>
 
